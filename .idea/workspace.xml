@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f130f96c-144a-4c24-a1da-039f08d03919" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/SumTheDigits.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StoreProgram.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TwoDimenCH8.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -35,19 +36,13 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.SumTheDigits">
+  <component name="RunManager" selected="Application.StoreProgram">
     <configuration name="Assignment1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Assignment1" />
-      <module name="Example" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DiceGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DiceGame" />
       <module name="Example" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -60,8 +55,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MethodCH6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MethodCH6" />
+    <configuration name="StoreProgram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StoreProgram" />
       <module name="Example" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -74,13 +69,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TwoDimenCH8" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TwoDimenCH8" />
+      <module name="Example" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SumTheDigits" />
+        <item itemvalue="Application.StoreProgram" />
+        <item itemvalue="Application.TwoDimenCH8" />
         <item itemvalue="Application.Grade" />
-        <item itemvalue="Application.MethodCH6" />
+        <item itemvalue="Application.SumTheDigits" />
         <item itemvalue="Application.Assignment1" />
-        <item itemvalue="Application.DiceGame" />
       </list>
     </recent_temporary>
   </component>
@@ -94,5 +96,16 @@
       <updated>1671260519530</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
