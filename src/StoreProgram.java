@@ -86,7 +86,7 @@ public class StoreProgram {
                 }
                 System.out.println("Total Inventory Value: " + totalValue);
             }
-            else if(userChoice == 5){
+            else{
                 break;
             }
         }
