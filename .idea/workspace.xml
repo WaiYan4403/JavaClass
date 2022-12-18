@@ -5,13 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f130f96c-144a-4c24-a1da-039f08d03919" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Assignment1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chapter5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DiceGame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Grade.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MethodCH6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SumTheDigits.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,16 +38,9 @@
     "RunOnceActivity.ShowReadmeOnStart": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Grade">
+  <component name="RunManager" selected="Application.SumTheDigits">
     <configuration name="Assignment1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Assignment1" />
-      <module name="Example" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Chapter5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Chapter5" />
       <module name="Example" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -79,13 +67,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SumTheDigits" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SumTheDigits" />
+      <module name="Example" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SumTheDigits" />
         <item itemvalue="Application.Grade" />
         <item itemvalue="Application.MethodCH6" />
         <item itemvalue="Application.Assignment1" />
         <item itemvalue="Application.DiceGame" />
-        <item itemvalue="Application.Chapter5" />
       </list>
     </recent_temporary>
   </component>
