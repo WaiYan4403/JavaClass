@@ -1,5 +1,4 @@
 import java.util.Arrays;
-import java.util.OptionalDouble;
 import java.util.Scanner;
 
 public class StoreProgram {
@@ -57,14 +56,24 @@ public class StoreProgram {
                 }
             }
             else if(userChoice == 3){
-                double[] priceMinToMax = prices;
-                Arrays.sort(priceMinToMax);
+                double lowestPrice = prices[0];
+                double highestPrice = prices[0];
+                for (int i = 0;i < items.length; i++){
+                    if(prices[i] < lowestPrice){
+                        lowestPrice = prices[i];
+                    }
+                    else if(prices[i] > highestPrice){
+                        highestPrice = prices[i];
+                    }
+                }
                 for(int i = 0; i < items.length; i++){
-                    if(prices[i] == priceMinToMax[priceMinToMax.length - 1]){
+                    if(prices[i] == highestPrice){
                         System.out.println("HIGHEST: ");
                         System.out.println("Item: " + items[i] + " Quantity: " + quantities[i] + " Price: " + prices[i]);
                     }
-                    else if(prices[i] == priceMinToMax[0]){
+                }
+                for(int i = 0; i < items.length; i++){
+                    if(prices[i] == lowestPrice){
                         System.out.println("LOWEST: ");
                         System.out.println("Item: " + items[i] + " Quantity: " + quantities[i] + " Price: " + prices[i]);
                     }
