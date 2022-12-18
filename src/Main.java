@@ -21,7 +21,7 @@ public class Main {
 
         // Random Values
         double randomValue = Math.random();
-        int randomIntValue = (int)(Math.random() * 10);
+        int randomIntValue = (int)(randomValue * 10);
         System.out.println(randomIntValue);
     }
 }
