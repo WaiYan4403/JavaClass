@@ -39,6 +39,9 @@ public class StoreProgram {
             do{
                 System.out.print("Your choice: ");
                 userChoice = inputChoice.nextInt();
+                if(userChoice > 5 || userChoice <= 0){
+                    System.out.println("You didn't choose a valid option, please try again.");
+                }
             }while (userChoice > 5 || userChoice <= 0);
 
             if(userChoice == 1){
@@ -76,9 +79,6 @@ public class StoreProgram {
             }
             else if(userChoice == 5){
                 break;
-            }
-            else if(userChoice > 5){
-                System.out.println("You didn't choose a valid option, please try again.");
             }
         }
     }
