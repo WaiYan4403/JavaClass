@@ -1,4 +1,3 @@
-import java.util.Arrays;
 import java.util.Scanner;
 
 public class StoreProgram {
@@ -58,26 +57,23 @@ public class StoreProgram {
             else if(userChoice == 3){
                 double lowestPrice = prices[0];
                 double highestPrice = prices[0];
+                int lowestPriceIndex = 0;
+                int highestPriceIndex = 0;
+
                 for (int i = 0;i < items.length; i++){
                     if(prices[i] < lowestPrice){
                         lowestPrice = prices[i];
+                        lowestPriceIndex = i;
                     }
                     else if(prices[i] > highestPrice){
                         highestPrice = prices[i];
+                        highestPriceIndex = i;
                     }
                 }
-                for(int i = 0; i < items.length; i++){
-                    if(prices[i] == highestPrice){
-                        System.out.println("HIGHEST: ");
-                        System.out.println("Item: " + items[i] + " Quantity: " + quantities[i] + " Price: " + prices[i]);
-                    }
-                }
-                for(int i = 0; i < items.length; i++){
-                    if(prices[i] == lowestPrice){
-                        System.out.println("LOWEST: ");
-                        System.out.println("Item: " + items[i] + " Quantity: " + quantities[i] + " Price: " + prices[i]);
-                    }
-                }
+                System.out.println("HIGHEST: ");
+                System.out.println("Item: " + items[highestPriceIndex] + " Quantity: " + quantities[highestPriceIndex] + " Price: " + prices[highestPriceIndex]);
+                System.out.println("LOWEST: ");
+                System.out.println("Item: " + items[lowestPriceIndex] + " Quantity: " + quantities[lowestPriceIndex] + " Price: " + prices[lowestPriceIndex]);
             }
             else if(userChoice == 4){
                 double totalValue = 0;
