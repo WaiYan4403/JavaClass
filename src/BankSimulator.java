@@ -22,6 +22,7 @@ public class BankSimulator {
             }while (userChoice > 4 || userChoice <= 0);
 
             if(userChoice == 1){
+                //Display customer's balanceeghuj
                 bankAccount.checkBalance();
             }
             else if(userChoice == 2){
@@ -36,9 +37,11 @@ public class BankSimulator {
                 }while (amount > bankAccount.balance || amount <= 0);
 
                 if(bankAccount.balance - amount < 30){
+                    //Customer's balance need at least $30
                     System.out.println("Transaction failed!!\nYour account need at least $30");
                 }
                 else{
+                    //Withdraw success
                     bankAccount.withdraw(amount);
                     System.out.println("Withdraw success!!");
                     bankAccount.checkBalance();
